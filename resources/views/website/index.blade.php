@@ -21,7 +21,6 @@
     <!-- Theme CSS -->
     <link href="{{asset('css/style.css')}}" rel="stylesheet">
 
-    <link href="https://www.leetchi.com/Payment/MerchantFrame.css" rel="stylesheet" type="text/css"/>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -44,7 +43,7 @@
                 <i class="fa fa-bars"></i>
             </button>
             <a class="navbar-brand page-scroll" href="#page-top">
-                <img src="img/logo.png" alt="logo"></i>
+                <img src="{{asset('img/logo.png')}}" alt="logo"></i>
             </a>
         </div>
 
@@ -130,7 +129,7 @@
                 <ul class="action">
                     <li>
                         <div class="action-image">
-                            <img class="img-circle img-responsive" src="img/doctor-medical.jpeg" alt="">
+                            <img class="img-circle img-responsive" src="{{asset('img/doctor-medical.jpeg')}}" alt="">
                         </div>
                         <div class="action-panel">
                             <div class="action-heading">
@@ -140,7 +139,7 @@
                     </li>
                     <li class="action-inverted">
                         <div class="action-image">
-                            <img class="img-circle img-responsive" src="img/africa-school.jpg" alt="">
+                            <img class="img-circle img-responsive" src="{{asset('img/africa-school.jpg')}}" alt="">
                         </div>
                         <div class="action-panel">
                             <div class="action-heading">
@@ -150,7 +149,7 @@
                     </li>
                     <li>
                         <div class="action-image">
-                            <img class="img-circle img-responsive" src="img/charity.jpg" alt="">
+                            <img class="img-circle img-responsive" src="{{asset('img/charity.jpg')}}" alt="">
                         </div>
                         <div class="action-panel">
                             <div class="action-heading">
@@ -160,7 +159,7 @@
                     </li>
                     <li class="action-inverted">
                         <div class="action-image">
-                            <img class="img-circle img-responsive" src="img/diabetic-medicine.jpeg" alt="">
+                            <img class="img-circle img-responsive" src="{{asset('img/diabetic-medicine.jpeg')}}" alt="">
                         </div>
                         <div class="action-panel">
                             <div class="action-heading">
@@ -170,7 +169,7 @@
                     </li>
                     <li>
                         <div class="action-image">
-                            <img class="img-circle img-responsive" src="img/medicine.jpg" alt="">
+                            <img class="img-circle img-responsive" src="{{asset('img/medicine.jpg')}}" alt="">
                         </div>
                         <div class="action-panel">
                             <div class="action-heading">
@@ -284,7 +283,7 @@
         </div>
         <div class="row">
             <div class="col-lg-12">
-                <img src="img/village.jpg" class="img-fluid img-rounded" alt="village">
+                <img src="{{asset('img/village.jpg')}}" class="img-fluid img-rounded" alt="village">
             </div>
         </div>
     </div>
@@ -317,8 +316,6 @@
 <script src="{{asset('js/bootstrap-select.js')}}"></script>
 <!-- Custom JavaScript -->
 <script src="{{asset('js/script.js')}}"></script>
-
-<script type="text/javascript" src="https://www.leetchi.com/Payment/MerchantFrame.js"></script>
 
 </body>
 
